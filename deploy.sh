@@ -3,7 +3,7 @@
  # @Autor: Bonny.meng
  # @Date: 2020-08-11 09:26:58
  # @LastEditors: Bonny.meng
- # @LastEditTime: 2020-08-13 12:50:38
+ # @LastEditTime: 2020-08-14 07:37:03
 ### 
 #!/usr/bin/env sh
 
@@ -24,6 +24,6 @@ git add -A
 git commit -m 'deploy'
 
 # 部署到 https://<USERNAME>.github.io
-git push -f git@github.com:IceBonny/IceBonny.github.io.git master
+# git push -f git@github.com:IceBonny/IceBonny.github.io.git master
 
 cd -
