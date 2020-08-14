@@ -15,7 +15,7 @@ export default {
    * 站点标题
    */
   title: '一念不生心澄然',
-  subtitle: '我欲穿花寻路 直入白云深处',
+  subtitle: '我欲穿花寻路 直入白云深处 浩气展虹霓',
 
   /**
    * Github Issues 配置
@@ -56,7 +56,7 @@ export default {
   archiveOpts: {
     display: true, // 是否显示该页面
     enableComment: false, // 是否开启评论功能
-    qoute: '浩气展虹霓', // 页面顶部一言
+    qoute: '浊以静之徐清 安以动之徐生', // 页面顶部一言
   },
 
   /**
@@ -65,7 +65,7 @@ export default {
   categoryOpts: {
     display: true,
     enableComment: false,
-    qoute: '疏星淡月秋千院 愁云恨雨芙蓉面',
+    qoute: '人间自是有情痴 此恨不关风与月',
   },
 
   /**

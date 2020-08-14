@@ -67,7 +67,7 @@ export const localRead = (key, defaultValue = '') => {
 }
 
 /**
- * 图片 cdn 加速，只对时雨个人使用
+ * 图片 cdn 加速
  */
 const isMe = location.host.includes('eeyore.xyz')
 const GithubPrefix = 'raw.githubusercontent.com/IceBonny/eeyoreBlog-Imgs/master'
