@@ -29,7 +29,7 @@
       <p>
         <i class="icon icon-copyright"></i>2020
         <i class="icon icon-heart"></i>
-        🌸{{ $config.title }}
+        {{ $config.title }}
       </p>
       <p>
         Theme -
