@@ -3,7 +3,7 @@
  * @Autor: Bonny.meng
  * @Date: 2020-08-11 09:26:58
  * @LastEditors: Bonny.meng
- * @LastEditTime: 2020-08-13 09:45:23
+ * @LastEditTime: 2020-08-16 16:06:56
 -->
 <template>
   <div id="friend">
@@ -13,7 +13,7 @@
         <div class="me">
           <span>欢迎各位大佬交换友链 (づ￣ 3￣)づ</span>
           <span>★ Bio：一念不生心澄然</span>
-          <span>★ Motto：我欲穿花寻路，直入白云深处</span>
+          <span>★ Motto：我欲穿花寻路 直入白云深处 浩气展虹霓</span>
           <span>★ URL：https://eeyore.xyz</span>
           <span
             >★ Avatar：<a href="https://cdn.jsdelivr.net/gh/IceBonny/eeyoreBlog-Imgs/blog/avatar.jpg" target="_blank"
