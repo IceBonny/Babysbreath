@@ -1,9 +1,9 @@
 {
-  "name": "Babysbreath",
-  "version": "1.0",
-  "description": "Blog theme",
-  "author": "",
-  "license": "",
+  "name": "aurora",
+  "version": "2.0.0",
+  "description": "An awesome blog theme",
+  "author": "蝉時雨 <me@chanshiyu.com>",
+  "license": "MIT",
   "scripts": {
     "start": "npm run serve",
     "serve": "vue-cli-service serve",
