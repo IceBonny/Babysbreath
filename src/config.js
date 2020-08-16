@@ -14,6 +14,7 @@ export default {
   /**
    * 站点标题
    */
+  name: 'Bonny',
   title: '一念不生心澄然',
   subtitle: '我欲穿花寻路 直入白云深处 浩气展虹霓',
 
@@ -112,8 +113,8 @@ export default {
     enableComment: true,
     qoute: '仰望等太阳升起 听见鸟群回来的声音 为我守候的人是你',
     avatar: '//cdn.jsdelivr.net/gh/IceBonny/eeyoreBlog-Imgs/blog/avatar.jpg',
-    // graduated: 'University of Electronic Science and Technology of China (UESTC)',
-    // college: 'Communication&Information Engineering',
+    motto: '怕什么真理无穷 进一步有一步的欢喜',
+    career: 'Front end development Engineer &  Life-Long Learner',
     contact: [
       {
         icon: '//cdn.jsdelivr.net/gh/IceBonny/eeyoreBlog-Imgs/blog/email.png',

@@ -3,7 +3,7 @@
  * @Autor: Bonny.meng
  * @Date: 2020-08-11 09:26:58
  * @LastEditors: Bonny.meng
- * @LastEditTime: 2020-08-12 21:08:33
+ * @LastEditTime: 2020-08-16 15:05:28
 -->
 <template>
   <div id="about">
@@ -15,6 +15,10 @@
             <img :src="$config.aboutOpts.avatar" alt />
             <div class="info">
               <span>
+                <i class="icon icon-star"></i>
+                {{ $config.name }}
+              </span>
+              <span>
                 <i class="icon icon-fort-awesome"></i>
                 {{ $config.title }}
               </span>
@@ -22,13 +26,13 @@
                 <i class="icon icon-pagelines"></i>
                 {{ $config.subtitle }}
               </span>
-              <!-- <span>
-                <i class="icon icon-graduation-cap"></i>
-                {{ $config.aboutOpts.graduated }}
-              </span> -->
+              <span>
+                <i class="icon icon-pencil"></i>
+                {{ $config.aboutOpts.motto }}
+              </span>
               <span>
                 <i class="icon icon-tripadvisor"></i>
-                {{ $config.aboutOpts.college }}
+                {{ $config.aboutOpts.career }}
               </span>
             </div>
           </div>

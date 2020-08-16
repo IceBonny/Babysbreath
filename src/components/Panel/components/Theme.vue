@@ -1,18 +1,26 @@
 <template>
   <ul class="theme">
     <li :class="['touhou', theme === 'touhou' && 'active']" @click="switchTheme('touhou')">
-      <h3>澄然</h3>
+      <h3>进击の巨人</h3>
       <div class="preview cursor">
         <div>
-          <img :src="touhou" alt="澄然" />
+          <img :src="touhou" alt="进击的巨人" />
         </div>
       </div>
     </li>
-    <li :class="['school', theme === 'school' && 'active']" @click="switchTheme('school')">
-      <h3>Hermione -- Bonny</h3>
+    <li :class="['gm', theme === 'gm' && 'active']" @click="switchTheme('gm')">
+      <h3>鬼灭の刃</h3>
       <div class="preview cursor">
         <div>
-          <img :src="school" alt="Hermione -- Bonny" />
+          <img :src="gm" alt="鬼灭の刃" />
+        </div>
+      </div>
+    </li>
+    <li :class="['name', theme === 'name' && 'active']" @click="switchTheme('name')">
+      <h3>你の名字</h3>
+      <div class="preview cursor">
+        <div>
+          <img :src="name" alt="你の名字" />
         </div>
       </div>
     </li>
@@ -35,7 +43,8 @@ export default {
   data() {
     return {
       touhou: preview.touhou,
-      school: preview.school,
+      gm: preview.gm,
+      name: preview.name,
     }
   },
   methods: {
@@ -66,8 +75,8 @@ export default {
 
     > div {
       display: flex;
-      width: 212px;
-      height: 110px;
+      width: 150px;
+      height: 90px;
       overflow: hidden;
       background-image: linear-gradient(to top, $panel-theme-bg-from-color 0%, $panel-theme-bg-to-color 100%);
     }
