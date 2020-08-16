@@ -26,7 +26,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.icon-copyright:before {
+  content: "\ea75";
+}
 .icon-heart:before {
   content: '\e800';
 }

@@ -35,7 +35,10 @@
 
           &:hover {
             animation-play-state: paused;
-            transform: rotateZ(360deg);
+            // transform: rotateZ(360deg);
+            transform: rotate(365turn);
+            transition-duration: 59s;
+            transition-timing-function: cubic-bezier(.34, 0, .84, 1)
           }
         }
         @include sp-layout {

@@ -1,3 +1,10 @@
+/*
+ * @Description: 
+ * @Autor: Bonny.meng
+ * @Date: 2020-08-13 12:13:09
+ * @LastEditors: Bonny.meng
+ * @LastEditTime: 2020-08-16 20:29:35
+ */
 import { format } from 'timeago.js'
 import { parseTime } from './index'
 import config from '../config'
@@ -33,10 +40,10 @@ export const formatCategory = (category) => {
 }
 
 /**
- * 格式化灵感
+ * 格式化灵感s
  */
 export const formatInspiration = (inspiration) => {
-  inspiration.forEach((o) => (o.date = parseTime(o.created_at, '{y}年{m}月{d}日')))
+  inspiration.forEach((o) => (o.date = parseTime(o.created_at, '{y}年{m}月{d}日 @{h}:{s}')))
   return inspiration
 }
 
