@@ -102,7 +102,7 @@ export default {
   friendOpts: {
     display: true,
     enableComment: true,
-    qoute: '一念不生心澄然',
+    qoute: '迷失的人迷失了，相逢的人会再相逢',
   },
 
   /**
