@@ -180,7 +180,7 @@ export default {
     },
     getNowTime () {
 
-      let BirthDay = new Date("8/17/2020 00:00:00");
+      let BirthDay = new Date("8/12/2020 00:00:00");
 
       let today = new Date();
       let timeold = (today.getTime() - BirthDay.getTime()); //总豪秒数
