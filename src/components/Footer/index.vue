@@ -38,6 +38,9 @@
         |
         {{ $config.subtitle }}
       </p>
+      <p>
+        Time - {{ birthday }}
+      </p>
     </div>
     <img
       v-if="!$isMobile.value"
@@ -79,6 +82,7 @@ export default {
       ],
       audio: this.$config.APlayer,
       isMini: true,
+      birthday:'',
     }
   },
   computed: mapState({
@@ -86,6 +90,7 @@ export default {
     tipsUpdateAt: (state) => state.tipsUpdateAt,
   }),
   mounted() {
+    this.birthday = setInterval(this.getNowTime,1000)
     if (!this.$isMobile.value) {
       this.dressup()
       this.loopTips()
@@ -173,6 +178,24 @@ export default {
     dropPanel() {
       this.$emit('dropPanel')
     },
+    getNowTime () {
+
+      let BirthDay = new Date("8/17/2020 00:00:00");
+
+      let today = new Date();
+      let timeold = (today.getTime() - BirthDay.getTime()); //总豪秒数
+      let secondsold = Math.floor(timeold / 1000);          //总秒数
+      let e_daysold = timeold / (24 * 60 * 60 * 1000);
+      let daysold = Math.floor(e_daysold);                 //相差天数
+      let e_hrsold = (e_daysold - daysold) * 24;
+      let hrsold = Math.floor(e_hrsold);                   //相差小时数
+      let e_minsold = (e_hrsold - hrsold) * 60;
+      let minsold= Math.floor(e_minsold)                   //相差分钟数
+      let seconds = Math.floor((e_minsold - minsold) * 60);  //相差秒数
+
+      return this.birthday = `| (⁄ ⁄ω⁄ ⁄) |Bonny ${daysold}天${hrsold}小时${minsold}分${seconds}秒`
+    }
+
   },
 }
 </script>

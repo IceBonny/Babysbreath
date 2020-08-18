@@ -3,7 +3,7 @@
  * @Autor: Bonny.meng
  * @Date: 2020-08-13 12:13:09
  * @LastEditors: Bonny.meng
- * @LastEditTime: 2020-08-16 20:29:35
+ * @LastEditTime: 2020-08-18 09:17:26
  */
 import { format } from 'timeago.js'
 import { parseTime } from './index'
