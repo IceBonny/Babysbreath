@@ -36,8 +36,7 @@
             </button>
             <div class="like">
               <p>
-                已有
-                <span>{{ likeTimes }}</span> 人点赞了哦！
+                已经有 <span>{{ likeTimes || '∞' }}</span> 人留下 ❤ 了~
               </p>
             </div>
           </div>
@@ -91,7 +90,7 @@ export default {
   computed: {
     panelTitle() {
       const inx = (this.currentInx + 1) % 2
-      return ['背景主题', '赛钱箱'][inx]
+      return ['背景主题', '【QrCode】'][inx]
     },
     distance() {
       return [0, -600, -1200, -1800][this.currentInx]
@@ -102,7 +101,7 @@ export default {
       }
     },
     likeBtnText() {
-      return this.isLikeSite ? "谢谢点赞 (●'◡'●)" : '点赞一下 (<ゝω・)☆'
+      return this.isLikeSite ? "Love Me ？(ゝω・)" : 'So do I 🎉'
     },
   },
   watch: {

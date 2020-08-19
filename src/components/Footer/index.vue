@@ -39,7 +39,7 @@
         {{ $config.subtitle }}
       </p>
       <p>
-        Time - {{ birthday }}
+        Running：{{ birthday }}<span class="smile">ღゝ◡╹)ノ♡</span>
       </p>
     </div>
     <img
@@ -193,7 +193,7 @@ export default {
       let minsold= Math.floor(e_minsold)                   //相差分钟数
       let seconds = Math.floor((e_minsold - minsold) * 60);  //相差秒数
 
-      return this.birthday = `| (⁄ ⁄ω⁄ ⁄) |Bonny ${daysold}天${hrsold}小时${minsold}分${seconds}秒`
+      return this.birthday = `${daysold}d${hrsold}h${minsold}m${seconds}s`
     }
 
   },
